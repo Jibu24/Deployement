@@ -34,7 +34,6 @@ The main objective of this project was to deploy a model onto the cloud that can
 
 ## Challanges 
 - Couldn't really do much feature engineering because all of the custom classes and function transformers I created gave me an error when fit into the pipeline
-- Unfortunately I downloaded the outdated python packages into my EC2 instance before the project, so I couldnt really run the model I trained in the newer versions of python in the cloud
 
 ## Future Goals
 - Create custom classes and function transformers that allow more feature engineering possibilities which might improve my model
