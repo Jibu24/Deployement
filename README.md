@@ -3,7 +3,7 @@
 ### [Assignment](assignment.md)
 
 ## Project/Goals
-The main objective of this project was to deploy a model onto the cloud that can take in data about an indicidual and predict wheter they will be approved for a loan or not
+The main objective of this project was to deploy a model onto the cloud that can take in data about an individual and predict wheter they will be approved for a loan or not
 ## Hypothesis
 - Individuals who are married will have a higher chance of getting approved
 - Level of education might impact approval
@@ -29,7 +29,8 @@ The main objective of this project was to deploy a model onto the cloud that can
 ## Results/Demo
 - My LogisticRegression model gave me the best performace with an accuracy score of 0.811
 - After hyperparamter tuning and feature selection I improved my accuracy to 0.812
-- The app api I created was just a simple one that takes in json data and outputs a prediction of weather a Loan would be approved or not
+- The app api I created was just a simple one that takes in json data and outputs a prediction of weather a Loan would be approved or not (1 for approved, 0 for rejected)
+- Run the test.py file in the command line to see the prediction of the model
 
 ## Challanges 
 - Couldn't really do much feature engineering because all of the custom classes and function transformers I created gave me an error when fit into the pipeline
